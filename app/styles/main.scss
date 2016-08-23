@@ -1,0 +1,37 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import "sass-bootstrap/lib/bootstrap";
+@import "variables";
+@import "header";
+@import "detail-container";
+@import "list-item";
+@import "programme";
+
+@font-face{
+ font-family: "Raisonne";
+ src: url('../fonts/raisonne_demibold_1-webfont.eot');
+ src: url('../fonts/raisonne_demibold_1-webfont.eot?#iefix')  format("embedded-opentype"),
+      url('../fonts/raisonne_demibold_1-webfont.woff')        format("woff"),
+      url('../fonts/raisonne_demibold_1-webfont.ttf')         format("truetype"),
+      url('../fonts/raisonne_demibold_1-webfont.svg#webfont') format("svg");
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+  background-color: $red;
+  background-image: url('../images/bg.png');
+}
+
+.container {
+  width: 1160px;
+}
+
+.programme-container {
+  background-color: white;
+}

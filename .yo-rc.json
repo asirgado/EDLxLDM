@@ -1,0 +1,12 @@
+{
+  "generator-backbone": {
+    "appPath": "app",
+    "appName": "Edlxldm",
+    "testFramework": "mocha",
+    "templateFramework": "lodash",
+    "coffee": true,
+    "compassBootstrap": true,
+    "includeRequireJS": false
+  },
+  "generator-mocha": {}
+}

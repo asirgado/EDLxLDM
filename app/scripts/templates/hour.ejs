@@ -1,0 +1,69 @@
+<% if (type == "headline") { %>
+  <a class="headline-item" href="#/<%= moment(time).format("HH:mm") %>">
+    <div class="row">
+      <div class="col-xs-2 hour-column">
+        <p class="hour"><%= moment(time).format("HH:mm") %></p>
+      </div>
+      <div class="col-xs-10 caption-column">
+        <h4 class="caption"><%= caption %></h4>
+        <% if (id == 13) { %>
+          <span class="cross pull-right">&times;</span>
+        <% } %>
+      </div>
+    </div>
+  </a>
+<% } %>
+<% if (type == "break") { %>
+  <div class="row break-item">
+    <div class="col-xs-2 hour-column">
+      <p class="hour"><%= moment(time).format("HH:mm") %></p>
+    </div>
+    <div class="col-xs-10 caption-column">
+      <p class="caption text-muted"><%= caption %></p>
+    </div>
+  </div>
+<% } %>
+<% if (type == "debate") { %>
+  <div class="row debate-item">
+    <div class="col-xs-2 hour-column">
+      <p class="hour"><%= moment(time).format("HH:mm") %></p>
+    </div>
+    <div class="col-xs-10 caption-column">
+      <p class="caption"><%= caption %></p>
+    </div>
+  </div>
+<% } %>
+<% if (type == "conference") { %>
+  <a class="conference-item" href="#/<%= moment(time).format("HH:mm") %>">
+    <div class="row">
+      <div class="col-xs-2 hour-column">
+        <p class="hour"><%= moment(time).format("HH:mm") %></p>
+      </div>
+      <div class="col-xs-4 caption-column">
+        <h4 class="caption"><%= caption %></h4>
+      </div>
+      <div class="col-xs-6">
+        <h4 class="talk-title"><%= talk.title %></h4>
+        <p class="talk-author">
+          <span class="chevron-right">></span>
+          <%= author.name %>
+        </p>
+      </div>
+    </div>
+  </a>
+<% } %>
+<% if (type == "panel") { %>
+  <a class="panel-item" href="#/<%= moment(time).format("HH:mm") %>">
+    <div class="row">
+      <div class="col-xs-2 hour-column">
+        <p class="hour"><%= moment(time).format("HH:mm") %></p>
+      </div>
+      <div class="col-xs-4 caption-column">
+        <h4 class="caption"><%= caption %></h4>
+      </div>
+      <div class="col-xs-6">
+        <h4 class="talk-title"><%= title %></h4>
+      </div>
+    </div>
+  </a>
+<% } %>

@@ -1,0 +1,142 @@
+@import "variables";
+
+.time-list-item {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  @include transition(all 0.25s);
+  padding: 0 15px;
+  margin: 0 -15px 0 -15px;
+  min-height: 36px;
+  opacity: 0.85;
+
+  // Anchors inside list item
+  a {
+    color: #333333;
+    display: block;
+    line-height: 36px;
+  }
+
+  .hour,
+  .caption {
+    font-family: "Raisonne";
+  }
+
+  .hour {
+    display: inline-block;
+    color: $red;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .caption {
+    display: inline-block;
+    font-size: 16px;
+    @include transition(color 0.05s);
+    margin: 6px 0;
+  }
+
+  .caption-column {
+    padding-left: 0;
+  }
+
+  .hour-column {
+    padding-right: 12px;
+    text-align: right;
+    width: 15%;
+  }
+
+  .break-item {
+    &:hover .caption {
+      color: #999999;
+    }
+  }
+
+  .break-item,
+  .debate-item {
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    margin-bottom: -1px;
+    margin-top: -1px;
+
+    p {
+      color: #999999;
+      font-size: 14px;
+      line-height: 36px;
+      margin: 0;
+    }
+  }
+
+  .debate-item {
+    p,
+    .caption {
+      color: #444444;
+
+      &:hover,
+      &.caption:hover {
+        color: #444444;
+      }
+    }
+  }
+
+  .headline-item .cross {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+
+  .conference-item,
+  .panel-item {
+
+    .talk-title {
+      color: #444444;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin-bottom: 0;
+      text-align: right;
+      text-decoration: underline;
+    }
+
+    .talk-author {
+      color: #777777;
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.025em;
+      margin-bottom: 0;
+      text-align: right;
+
+      .chevron-right {
+        font-size: 12px;
+        font-weight: 400;
+        vertical-align: bottom;
+      }
+    }
+  }
+
+  // Active list item
+  &.active {
+    background-color: lighten($red, 40%);
+    border-bottom: 1px solid lighten($red, 35%);
+    border-top: 1px solid lighten($red, 35%);
+    opacity: 1;
+
+    .caption {
+      color: $red;
+    }
+  }
+
+  &:hover {
+    background-color: lighten($red, 40%);
+    opacity: 1;
+    .caption {
+      color: $red;
+    }
+    .debate-item .caption {
+      color: #444444;
+    }
+  }
+}

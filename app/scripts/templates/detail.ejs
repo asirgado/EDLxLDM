@@ -1,0 +1,74 @@
+<% if (type == "headline") { %>
+  <div class="headline-item">
+    <div class="header">
+      <div class="row">
+        <div class="col-xs-8">
+          <h1 class="caption"><%= caption %></h1>
+        </div>
+        <div class="col-xs-4">
+          <h1 class="hour"><%= moment(time).format("HH:mm") %></h1>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="description"><%= description %></div>
+    </div>
+    <div class="footer"></div>
+  </div>
+<% } %>
+<% if (type == "conference") { %>
+  <div class="detail-header">
+    <div class="row">
+      <div class="col-xs-6">
+        <h1><%= caption %></h1>
+      </div>
+      <div class="col-xs-6 text-right">
+        <h1><%= moment(time).format("HH:mm") %></h1>
+      </div>
+    </div>
+  </div>
+  <div class="detail-body">
+    <div class="conference-wrapper">
+      <h4 class="author"><%= author.name %></h4>
+      <div class="tag"><%= author.tag %></div>
+      <div id="<%= talk.slug %>" class="conference-container">
+        <h2 class="talk-title"><%= talk.title %></h2>
+        <div class="talk-description">
+          <%= talk.description %>
+        </div>
+      </div>
+    </div>
+    <div class="biography">
+      <%= author.biography %>
+    </div>
+  </div>
+<% } %>
+<% if (type == "panel") { %>
+  <div class="detail-header">
+    <div class="row">
+      <div class="col-xs-6">
+        <h1><%= caption %></h1>
+      </div>
+      <div class="col-xs-6 text-right">
+        <h1><%= moment(time).format("HH:mm") %></h1>
+      </div>
+    </div>
+  </div>
+  <div class="detail-body">
+    <% conferences.forEach(function (conference) { %>
+      <div class="detail-content">
+        <div class="conference-wrapper">
+          <h4 class="author"><%= conference.author.name %></h4>
+          <div class="tag"><%= conference.author.tag %></div>
+          <div id="<%= conference.talk.slug %>" class="conference-container">
+            <h2 class="talk-title"><%= conference.talk.title %></h2>
+            <div class="talk-description">
+              <%= conference.talk.description %>
+            </div>
+          </div>
+        </div>
+        <div class="biography"><%= conference.author.biography %></div>
+      </div>
+    <% }); %>
+  </div>
+<% } %>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EdlApp</title>
+    <meta name="description" content="">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,300,400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5 programme-container">
+          <div class="edl-header">
+            <div class="row">
+              <div class="col-xs-3">
+                <a href="/">
+                  <img height="75" src="images/ldme@2x.png" width="75"/>
+                </a>
+              </div>
+              <div class="col-xs-7">
+                <a class="title" href="/">
+                  II Lisbon Design Meetings
+                </a>
+                <a class="school">
+                  > Documenting /
+                  <hr/>
+                  Commenting Design
+                </a>
+              </div>
+              <div class="col-xs-2">
+                <h4 class="date">13.11.14</h4>
+                <a class="faculty pull-right" href="http://www.fba.ul.pt" target="new">
+                  FBAUL
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="nav">
+                  <ul class="list-inline">
+                    <li class="lang"><a href="">pt</a></li>
+                    <li><a href="docs/EDLxLDM_2014_Programme.pdf" target="new">Programme</a></li>
+                    <li><a href="#/info">Info</a></li>
+                    <li><a href="#/registration">Registration Form</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="edl-programme" class="edl-programme"></div>
+        </div>
+        <div class="col-xs-7 detail-container">
+          <div id="edl-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+    <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+    <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/templates.js"></script>
+    <script src="scripts/routes/index.js"></script>
+    <script src="scripts/views/hour.js"></script>
+    <script src="scripts/views/index.js"></script>
+    <script src="scripts/models/hour.js"></script>
+    <script src="scripts/collections/hours.js"></script>
+    <script src="scripts/views/detail.js"></script>
+    <script src="scripts/views/info.js"></script>
+    <script src="scripts/views/registration.js"></script>
+    <script src="scripts/views/opening.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

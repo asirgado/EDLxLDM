@@ -1,0 +1,56 @@
+@import "variables";
+
+.edl-programme {
+  padding-top: 20px;
+}
+
+.opening {
+  font-family: "Raisonne";
+  font-size: 21px;
+  line-height: 1.4;
+  padding: 10px 50px;
+}
+
+.opening-description {
+  color: #666666;
+  font-family: "Raisonne";
+  font-size: 16px;
+  line-height: 1.3;
+  padding: 0 50px;
+}
+
+.information-body {
+  padding-left: 50px;
+
+  dt {
+    color: $red;
+    font-family: "Raisonne";
+    letter-spacing: -0.025em;
+    margin-bottom: 5px;
+  }
+
+  dd {
+    color: #555555;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 10px;
+  }
+
+  small {
+    color: #777777;
+    font-weight: 300;
+  }
+}
+
+.faculty-info {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 75px;
+
+  address {
+    font-size: 13px;
+  }
+}
+
+.information-footer {
+  margin: 50px;
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "caption": "Registration",
+    "description": "registration",
+    "id": 0,
+    "room": "Main Auditorium",
+    "time": "2014-11-13T09:00:00+00:00",
+    "type": "headline"
+  },
+  {
+    "caption": "Opening Session",
+    "description": "opening session",
+    "id": 1,
+    "room": "Main Auditorium",
+    "time": "2014-11-13T09:30:00+00:00",
+    "type": "headline"
+  },
+  {
+    "author": {
+      "name": "Viviana Narotzky",
+      "biography": "<p>—</p><p>Director of the Open Design / Shared Creativity International Conference which takes place yearly as part of the Barcelona Design Festival.</p><p>As an independent scholar, writer and curator, Narotzky lectures and speaks internationally on design and contemporary material culture, and curates exhibitions on contemporary and 20C design.</p><p>She collaborates as an advisor on design related projects and has worked with institutions such as the World Economic Forum, the Museum of Contemporary Art of Barcelona (MACBA), the Victoria & Albert Museum London, and Hong Kong Television.</p><p>She is also a Founding Member and Trustee of the Spanish Design History Foundation. Among other academic positions, Dr Narotzky has been Senior Research Fellow at the Center for the Study the Domestic Interior based at the Royal College of Art, London, Director of the History of Design MA at Kingston University, and Senior Tutor on the History of Design MA course run jointly by the Royal College of Art and the Victoria & Albert Museum.</p>",
+      "tag": "<p>President of ADI-FAD,<br/>the Spanish Industrial Design Association of Barcelona, Spain</p>"
+    },
+    "caption": "Conference I",
+    "id": 2,
+    "talk": {
+      "title": "Keeping it open",
+      "description": "<p>Over the last few years, Open Design has been edging closer to the mainstream.</p><p>Open approaches are being explored in very diverse areas, from fashion design to product to craft, and involve both individual design practice and the creation of online platforms that support open processes, crowdfunding, distributed manufacturing and collaboration.</p><p>Although they always tend to interact with digital technologies and make use of online social media, the practices involved range from extremely high-tech to fairly low-tech, and often combine the two. They also represent overlapping communities of practice, such as makers, designers, coders, artists, etc.</p><p>Although it’s a fairly heterogeneous group, there are many shared values, and with respect to design in particular, these approaches challenge the more traditional definitions of the profession, the business models based on proprietary designs and mass-production, and they undermine the separation between creator and consumer, professional and amateur. By their very nature, they also necessitate a clear transmission of information, and documenting design practice and process is one of the backbones of Open Design.</p>",
+      "moderator": "Raul Cunca, FBAUL",
+      "room": "Main Auditorium",
+      "slug": "keeping-it-open"
+    },
+    "time": "2014-11-13T10:15:00+00:00",
+    "type": "conference"
+  },
+  {
+    "caption": "Debate",
+    "id": 3,
+    "time": "2014-11-13T11:00:00+00:00",
+    "type": "debate"
+  },
+  {
+    "caption": "Coffee Break",
+    "id": 4,
+    "room": "",
+    "time": "2014-11-13T11:15:00+00:00",
+    "type": "break"
+  },
+  {
+    "caption": "Panel I",
+    "conferences": [
+      {
+        "author": {
+          "name": "Helena Barbosa",
+          "biography": "<p>—</p><p>Teaches disciplines in Design – Undergraduate, Master and PhD at Univ. of Aveiro-UA.</p><p>Her areas of interest are Portuguese Design History, Portuguese material culture, mainly posters and on-line museums. She is responsible for the contents of on-line poster museum (30.000) a project being developed UA. Vice-president of ID+ Research Institute for Design, Media and Culture; member of the editorial board of the journal The Poster, and member of the Scientific Committee of the journal Eme: experimental illustration design.</p>",
+          "tag": "<p>Department of Communication and Art,<br/>University of Aveiro, Portugal</p>"
+        },
+        "talk": {
+          "title": "A perspective about documenting and commenting the design through the poster",
+          "description": "<p>The combination of the word Document and Comment in conjunction with the term Design opens an exponential set of approaches at the level of the several opportunities in research focused on that subject. The only variation is in the incidence of the register and how to proceed to his approach in terms of study.</p><p>Considering the broader universe of these possibilities the present article aims to illustrate an early stage the importance and the meaning of these terms (document and comment) aiming the way how these declines in the various types of documentation explaining their properties, specificities and potentialities.</p><p>Later, exemplifies through a specific case study focused on four centuries of Portuguese poster, the different methodologies applied to this artefact. This approach aims to provide and contribute to the knowledge about the Design discipline in the national context.</p>",
+          "moderator": "Raul Cunca, FBAUL",
+          "room": "Main Auditorium",
+          "slug": "a-perspective-about-documenting-and-commenting-the-design-through-the-poster"
+        }
+      },
+      {
+        "author": {
+          "name": "Francisco Providência",
+          "biography": "Graduated in Communication Design through College of Fine Arts of Porto University. In 1997 accepts invitation to teach and integrate the team which will organize the generation in Design at Communication and Art Department of Aveiro University, where collaborates driving the PHD program at Design (Aveiro University + Porto University). Developing scientific activity in the research unity in design ID+/FCT, converging on ontology and design poetics. From his extensive curriculum the highlights are: Penafiel Museum (2008), Matosinhos Dock urban communication project (2011), Batalha Interpretative Center (2012), Money museum of Portugal Bank (2012), Afurada Interpretative Centre (2012) and Aveiro Noveau Art Museum (2012).",
+          "tag": "<p>Department of Communication and Art,<br/>University of Aveiro, Portugal</p>"
+        },
+        "talk": {
+          "title": "What does Portuguese Design means?",
+          "description": "<em>A simple and complex issue that underlies the difficulty in finding a handful of objects on which to build the museum of Portuguese design is how to draw the Portuguese design without falling in the temptation of Raul Lino.</em><p><br/>The Portuguese Design Museography project, currently financed by the Portuguese FCT and developed within the research unit ID +, raises three distinct orders of questions:</p><p>1 what is the state of the art of contemporary museology; 2 which is the epistemological meaning of design museology; 3 what does it means the classification 'Portuguese Design'.</p><p>These three issues are complex and require an enlarged interdisciplinary reflection. Not willing (or able) to answer definitively on this subject, I propose to rehearse approaches on the topic, starting from the idea of Portugality expressed by Fernando Pessoa in the Orpheus magazine and that commemorates this year its hundredth anniversary.</p><p>Continuous to the French Symbolism and the Italian Modernism, the Portuguese Pantheism was, in the opinion of Pessoa, the most genuine Portuguese contribution to the World, whose mission was described in program.of the 2nd number of Orpheus that Fernando Pessoa coordinated with Mário de Sá Carneiro.</p>",
+          "moderator": "Cristóvão Pereira, FBAUL",
+          "room": "Main Auditorium",
+          "slug": "what-does-portuguese-design-means"
+        }
+      }
+    ],
+    "id": 5,
+    "time": "2014-11-13T11:30:00+00:00",
+    "title": "Documenting Design",
+    "type": "panel"
+  },
+  {
+    "caption": "Debate",
+    "id": 6,
+    "time": "2014-11-13T12:30:00+00:00",
+    "type": "debate"
+  },
+  {
+    "caption": "Lunch Break",
+    "id": 7,
+    "time": "2014-11-13T13:00:00+00:00",
+    "type": "break"
+  },
+  {
+    "caption": "Panel II",
+    "conferences": [
+      {
+        "author": {
+          "name": "José Bártolo",
+          "biography": "<p>José Bártolo is an educator, curator and design writer living and working in Porto, Portugal since 1996. Professor and Head of the Scientific Board at ESAD - Escola Superior de Artes e Design, Matosinhos, Portugal.</p><p>José holds a Ph.D in Communication Sciences (Universidade Nova de Lisboa, 2006) and Masters in Aesthetics (Universidade Nova de Lisboa, 1999). José is also a Researcher and Member of the Scientific Board of CECL/Universidade Nova de Lisboa (http://www.cecl.com.pt/en/) and Professor at the School of Architecture of the University of Porto. His professional activity includes research, critical studies and curatorship in the fields of Art and Design since 1996.</p>",
+          "tag": "<p>School of Art & Design, Matosinhos, Portugal</p>"
+        },
+        "talk": {
+          "title": "The Unknown Designer",
+          "description": "<h4>Archive Conception and Design History documentary support</h4><p><br/>The 5th edition of Meggs' History of Graphic Design (Meggs and Purvis, 2011) includes a short chapter on “Design in Spain, Portugal and Latin America”, in which the history of the production of graphic design in Portugal is superficially summarized in a narrative that begins with Sebastião Rodrigues, continues with João Machado and Cayatte and ends in Alva Design Studio.</p><p>We argue that history is an interpretive construct that arises from a particular historiography. The historiography of design in Portugal is scarce and scattered. Until the late twentieth century, this historical analysis is limited to the work of a small number of art historians which reflected the inexistence of a specific methodological knowledge of design history. We also believe that historiography is only possible if there are archives.</p><p>The archive is the documentary base from which the work of analysis, historical contextualization and interpretation are developed. Critically, this presentation makes a review of the relationship between History, Historiography and Archives in Portuguese contemporary design.</p>",
+          "moderator": "Raul Cunca, FBAUL",
+          "room": "Main Auditorium",
+          "slug": "the-unknown-designer"
+        }
+      },
+      {
+        "author": {
+          "name": "Maria Teresa Cruz",
+          "biography": "<p>PhD in Communication and Culture, she is the director of the Research Center on Communication and Language, and she teaches at the Communication Sciences Department, in Social and Human Sciences Faculty of the New University of Lisbon (UNL) in the fields of Image Theory, Media Aesthetics and Theory and Contemporary Art.</p><p>Her research interests focus upon contemporary arts and design, post-media aesthetics and cultural heritage.</p>",
+          "tag": "<p>Faculty of Social Sciences and Humanities,<br/>New University of Lisbon, Portugal</p>"
+        },
+        "talk": {
+          "title": "Design as Thinking and Praxis",
+          "description": "<p>Design is in itself a way of thinking and acting, with an intrinsic social meaning. Its limitations and implications are, increasingly, the projection of collective life itself, in all its various forms and practices. This discussion will address design as a body of knowledge and methodologies that translate not only into objects, equipment and communication materials as its more traditional classification, but also in concepts, models and assemblages with an ever wider valence.</p><p>This view of design as a way of thinking and acting, increasingly present in recent decades, has been disseminated through the ideas of “design thinking” and “social design”, thus making design the fundamental mediation of experience. This reflection will seek to critically approach these notions in the context (in crisis) of the hyper-industrialization of contemporary experience and attempts to respond to this condition.</p>",
+          "moderator": "Raul Cunca, FBAUL",
+          "room": "Main Auditorium",
+          "slug": "design-as-thinking-and-praxis"
+        }
+      }
+    ],
+    "id": 8,
+    "time": "2014-11-13T14:30:00+00:00",
+    "title": "Commenting Design",
+    "type": "panel"
+  },
+  {
+    "caption": "Debate",
+    "id": 9,
+    "time": "2014-11-13T15:30:00+00:00",
+    "type": "debate"
+  },
+  {
+    "caption": "Coffee Break",
+    "id": 10,
+    "room": "",
+    "time": "2014-11-13T15:45:00+00:00",
+    "type": "break"
+  },
+  {
+    "author": {
+      "name": "Lorenzo Imbesi",
+      "biography": "<p>Associate Professor of Industrial Design at Sapienza University of Rome (Italy), he was a Faculty heading the Master of Design MDes at Carleton University in Canada until 2013. Architect, PhD in Design, ICCS fellow – Canada Government and member of the Research Board of Italian and European researches.</p><p>He is speaker as keynote and coordinator for international conferences and curator of design exhibitions and events. Critic and essayist for many reviews, he has been Co-Director of the magazine 'DIID – Disegno Industriale' and at the moment he is Editor of ‘Design Principles and Practices: an International Journal’ (Common Ground Publishing, Chicago), Director of 'FIELDS. An Interdisciplinary Design Journal' (Carleton University, Ottawa) and member of the editorial advisory board of 'The Design Journal' (Bloomsbury Publishing, London). Among his works, he is author of 'InterAction by Design' (2009), '09 YoungDesign' (2009), 'Ethics & Design' (2008), 'D_Generation' (2007)'</p>",
+      "tag": "<p>Faculty of Architecture Sapienza University of Rome, Italy</p>"
+    },
+    "caption": "Conference II",
+    "id": 11,
+    "talk": {
+      "title": "Design for<br>post-industrial society",
+      "description": "<p>Industry is living an historical shift of its role in society and production through the admittance of the new technologies. Along the crisis of industry, knowledge and creativity come to be a primary force capable of generating value and innovation.</p><p>The new technological revolution is questioning the way we produce, manufacture, distribute and fund everything, from small to big objects we deal with in our everyday lives. The process of digitalization is opening new challenges but also opportunities for rethinking what and the way we produce towards a society which is more environmentally sustainable, socially equitable and democratic.</p><p>The new generations of designers have come to terms with deindustrialization, while experiencing a special space for self-organization and then revealing new open and collaborative forms of production. The outcome from such collective and grassrooted activity is social innovation, which is mobilizing an ubiquitous collective and creative intelligence directed towards the solution to real, local and social problems.</p>",
+      "moderator": "Emílio Vilar, FBAUL",
+      "room": "Main Auditorium",
+      "slug": "design-for-post-industrial-society"
+    },
+    "time": "2014-11-13T16:00:00+00:00",
+    "type": "conference"
+  },
+  {
+    "caption": "Debate",
+    "id": 12,
+    "time": "2014-11-13T16:45:00+00:00",
+    "type": "debate"
+  },
+  {
+    "caption": "Closing Session",
+    "description": "<h3 class='text-center'>&times;</h3>",
+    "id": 13,
+    "room": "Main Auditorium",
+    "time": "2014-11-13T17:00:00+00:00",
+    "type": "headline"
+  }
+]

@@ -1,0 +1,120 @@
+@import "variables";
+
+.edl-header {
+  padding: 17px 0 30px 0;
+
+  .row {
+    > .col-xs-3 {
+      padding-right: 0;
+    }
+    > .col-xs-2,
+    > .col-xs-7 {
+      padding: 0;
+    }
+    .col-xs-3 {
+      width: 22%;
+    }
+    > .col-xs-2 {
+      margin-left: -15px;
+    }
+  }
+
+  .title,
+  .school {
+    @include transition(color 0.15s);
+  }
+
+  // EDL title
+  .title {
+    color: #333333;
+    display: block;
+    font-family: "Raisonne";
+    font-size: 20px;
+    margin: 0 0 10px 0;
+
+    &:hover {
+      color: $red;
+      text-decoration: none;
+    }
+  }
+
+  .school,
+  .faculty {
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1em;
+    text-transform: uppercase;
+
+    > hr {
+      margin: -2px;
+      visibility: hidden;
+    }
+
+    &:hover {
+      color: $red;
+      text-decoration: none;
+    }
+  }
+
+  .date {
+    color: $red;
+    font-family: "Raisonne";
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 0;
+    text-align: right;
+  }
+}
+
+.nav {
+  .list-inline {
+    margin: 30px 0 0 0;
+  }
+
+  li {
+    padding: 0;
+    &.lang {
+      width: 83px;
+      a {
+        background-color: #444444;
+        color: white;
+        text-decoration: none;
+        &:hover {
+          background-color: transparent;
+          color: $red;
+        }
+      }
+    }
+  }
+
+  li {
+    padding: 0;
+  }
+
+  li a {
+    color: $red;
+    font-family: "Raisonne";
+    font-size: 13px;
+    @include transition(all 0.05s);
+    letter-spacing: 0.025em;
+    padding: 2px 6px;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #444444;
+      color: white;
+      text-decoration: none;
+    }
+
+    &.active {
+      background-color: #444444;
+    }
+  }
+}
+
+.faculty {
+  margin-top: 17px;
+  color: #666;
+}
